@@ -5,7 +5,12 @@ import './Header.css'
 export default function Header() {
   return (
     <header>
-      <h1 className='bananas'>Bananas for Scale</h1>
+      <nav className='navbar'>
+        <span className='navbar-toggle' id='navbar'>
+          <i className='fas fa-bars'></i>
+        </span>
+        <h1 className='logo'>Bananas for Scale</h1>
+      </nav>
     </header>
   )
 }
